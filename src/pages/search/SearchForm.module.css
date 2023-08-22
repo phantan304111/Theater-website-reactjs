@@ -1,0 +1,53 @@
+
+
+.Container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+align-items: center;
+height: 180rem;
+background-color: black;
+}
+
+.searchform {
+    width: 800px;
+    height: 200px;
+    background-color: #ffffff;
+   position: absolute;
+   top: 100px;
+ 
+   z-index: 1;
+    }
+    .inputName {
+        border: 0px;
+        font-size: x-large;
+        width: 800px;
+        height: 60px;
+        border-bottom: solid 2px #00bbec;
+    }
+    .searchFa{
+        position: absolute;
+        left: 736px;
+        top: 15px;
+        /* width: 60px; */
+        height: 34px;
+    }
+    .searchResest {
+        position: absolute;
+        left: 539px;
+        top: 127px;
+    }
+    .searchResest button{
+       
+        font-size: large;
+        width: 89px;
+        height: 36px;
+        /* margin: 3px; */
+        border: 0px;
+        
+    }
+    .searchResest button:hover{
+     transform: scale(1.1);
+        
+    }
+    

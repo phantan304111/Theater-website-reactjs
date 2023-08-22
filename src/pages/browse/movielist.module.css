@@ -1,0 +1,72 @@
+.black {
+  background-color: black;
+  width: 100%;
+  padding-top: 4%;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: auto;
+  z-index: 3;
+}
+.container {
+  display: flex;
+
+  user-select: none;
+  overflow: hidden;
+  overflow-x: auto;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.img img {
+  border-radius: 19px;
+  width: 275px;
+  padding: 12px;
+  z-index: 1;
+}
+.img {
+  transition: all 0.3s ease-in-out;
+  opacity: 0, 1;
+  scroll-behavior: smooth;
+}
+.img:hover {
+  transform: scale(1.15);
+}
+.chevronleft button {
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+  left: 1px;
+  bottom: 195px;
+  width: 40px;
+  height: 60px;
+  opacity: 0.6;
+}
+.chevronright button {
+  background-color: black;
+
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  right: -10px;
+  bottom: 191px;
+  opacity: 0.6;
+}
+.chevronleftTwo button {
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+  left: 1px;
+  bottom: 70px;
+  width: 40px;
+  height: 60px;
+  opacity: 0.6;
+}
+.chevronrightTwo button {
+  background-color: black;
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: -10px;
+  bottom: 70px;
+  opacity: 0.6;
+}

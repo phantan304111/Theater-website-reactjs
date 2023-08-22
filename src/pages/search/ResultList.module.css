@@ -1,0 +1,38 @@
+.container {
+    position: absolute;
+    top: 400px;
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ padding-left: 15px;
+ padding-right: 15px;
+    justify-content: flex-start;
+
+    height: 1000px;
+ text-align: center;
+  
+}
+.error{
+    position: absolute;
+    color: aliceblue;
+    font-size: 40px;
+   left: 35%;
+}
+.img img {
+   
+    /* max-width: 100%; */
+    border-radius: 19px;
+    width: 346px;
+    height: 500px;
+    padding: 12px;
+    margin: 14px;
+    z-index: 1;
+  }
+  .img {
+    transition: all 0.3s ease-in-out;
+    opacity: 0, 1;
+    scroll-behavior: smooth;
+  }
+  .img:hover {
+    transform: scale(1.1);
+  }
